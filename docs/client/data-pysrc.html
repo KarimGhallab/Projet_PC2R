@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>data</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Module&nbsp;data
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="data-pysrc.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<h1 class="epydoc">Source Code for <a href="data-module.html">Module data</a></h1>
+<pre class="py-src">
+<a name="L1"></a><tt class="py-lineno"> 1</tt>  <tt class="py-line"><tt class="py-comment"># coding: utf-8</tt> </tt>
+<a name="L2"></a><tt class="py-lineno"> 2</tt>  <tt class="py-line"> </tt>
+<a name="L3"></a><tt class="py-lineno"> 3</tt>  <tt class="py-line"><tt class="py-docstring">"""Les constantes du jeu."""</tt> </tt>
+<a name="L4"></a><tt class="py-lineno"> 4</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt class="py-name">json</tt> </tt>
+<a name="L5"></a><tt class="py-lineno"> 5</tt>  <tt class="py-line"> </tt>
+<a name="L6"></a><tt class="py-lineno"> 6</tt>  <tt class="py-line"><tt id="link-0" class="py-name" targets="Variable data.TURN_IT=data-module.html#TURN_IT"><a title="data.TURN_IT" class="py-name" href="#" onclick="return doclink('link-0', 'TURN_IT', 'link-0');">TURN_IT</a></tt>                 <tt class="py-op">=</tt> <tt class="py-op">-</tt><tt class="py-number">1</tt> <tt class="py-comment"># la quantit&#233; de degr&#233; que l'on augmente/diminue lors d'une rotation</tt> </tt>
+<a name="L7"></a><tt class="py-lineno"> 7</tt>  <tt class="py-line"><tt id="link-1" class="py-name" targets="Variable data.THRUST_IT=data-module.html#THRUST_IT"><a title="data.THRUST_IT" class="py-name" href="#" onclick="return doclink('link-1', 'THRUST_IT', 'link-1');">THRUST_IT</a></tt>               <tt class="py-op">=</tt> <tt class="py-op">-</tt><tt class="py-number">1</tt> <tt class="py-comment"># La quantit&#233; de vitesse que l'on augmente lors d'une pouss&#233;e</tt> </tt>
+<a name="L8"></a><tt class="py-lineno"> 8</tt>  <tt class="py-line"><tt id="link-2" class="py-name" targets="Variable data.SERVER_TICRATE=data-module.html#SERVER_TICRATE"><a title="data.SERVER_TICRATE" class="py-name" href="#" onclick="return doclink('link-2', 'SERVER_TICRATE', 'link-2');">SERVER_TICRATE</a></tt>          <tt class="py-op">=</tt> <tt class="py-op">-</tt><tt class="py-number">1</tt> <tt class="py-comment"># Le tick rate du serveur</tt> </tt>
+<a name="L9"></a><tt class="py-lineno"> 9</tt>  <tt class="py-line"><tt id="link-3" class="py-name" targets="Variable data.REFRESH_TICRATE=data-module.html#REFRESH_TICRATE"><a title="data.REFRESH_TICRATE" class="py-name" href="#" onclick="return doclink('link-3', 'REFRESH_TICRATE', 'link-3');">REFRESH_TICRATE</a></tt>         <tt class="py-op">=</tt> <tt class="py-op">-</tt><tt class="py-number">1</tt> <tt class="py-comment"># Le tick rate du client</tt> </tt>
+<a name="L10"></a><tt class="py-lineno">10</tt>  <tt class="py-line"><tt id="link-4" class="py-name" targets="Variable data.ARENA_H=data-module.html#ARENA_H"><a title="data.ARENA_H" class="py-name" href="#" onclick="return doclink('link-4', 'ARENA_H', 'link-4');">ARENA_H</a></tt>                 <tt class="py-op">=</tt> <tt class="py-op">-</tt><tt class="py-number">1</tt> <tt class="py-comment"># Le param&#232;tre h de l'ar&#232;ne</tt> </tt>
+<a name="L11"></a><tt class="py-lineno">11</tt>  <tt class="py-line"><tt id="link-5" class="py-name" targets="Variable data.ARENA_L=data-module.html#ARENA_L"><a title="data.ARENA_L" class="py-name" href="#" onclick="return doclink('link-5', 'ARENA_L', 'link-5');">ARENA_L</a></tt>                 <tt class="py-op">=</tt> <tt class="py-op">-</tt><tt class="py-number">1</tt> <tt class="py-comment"># Le param&#232;tre l de l'ar&#232;ne</tt> </tt>
+<a name="L12"></a><tt class="py-lineno">12</tt>  <tt class="py-line"><tt id="link-6" class="py-name" targets="Variable data.POD_SIDE=data-module.html#POD_SIDE"><a title="data.POD_SIDE" class="py-name" href="#" onclick="return doclink('link-6', 'POD_SIDE', 'link-6');">POD_SIDE</a></tt>                <tt class="py-op">=</tt> <tt class="py-op">-</tt><tt class="py-number">1</tt> <tt class="py-comment"># La taille du cot&#233; d'un POD (le joueur)</tt> </tt>
+<a name="L13"></a><tt class="py-lineno">13</tt>  <tt class="py-line"><tt id="link-7" class="py-name" targets="Variable data.BALL_SIDE=data-module.html#BALL_SIDE"><a title="data.BALL_SIDE" class="py-name" href="#" onclick="return doclink('link-7', 'BALL_SIDE', 'link-7');">BALL_SIDE</a></tt>               <tt class="py-op">=</tt> <tt class="py-op">-</tt><tt class="py-number">1</tt> <tt class="py-comment"># La taille du cot&#233; d'une dragon ball (un objectif)</tt> </tt>
+<a name="L14"></a><tt class="py-lineno">14</tt>  <tt class="py-line"><tt id="link-8" class="py-name" targets="Variable data.ASTEROID_SIDE=data-module.html#ASTEROID_SIDE"><a title="data.ASTEROID_SIDE" class="py-name" href="#" onclick="return doclink('link-8', 'ASTEROID_SIDE', 'link-8');">ASTEROID_SIDE</a></tt>           <tt class="py-op">=</tt> <tt class="py-op">-</tt><tt class="py-number">1</tt> <tt class="py-comment"># La taille du cot&#233; d'un ast&#233;ro&#239;de</tt> </tt>
+<a name="L15"></a><tt class="py-lineno">15</tt>  <tt class="py-line"><tt id="link-9" class="py-name" targets="Variable data.GENKIDAMA_SIDE=data-module.html#GENKIDAMA_SIDE"><a title="data.GENKIDAMA_SIDE" class="py-name" href="#" onclick="return doclink('link-9', 'GENKIDAMA_SIDE', 'link-9');">GENKIDAMA_SIDE</a></tt>          <tt class="py-op">=</tt> <tt class="py-op">-</tt><tt class="py-number">1</tt> <tt class="py-comment"># La taille d'un genkidama (une bombe)</tt> </tt>
+<a name="L16"></a><tt class="py-lineno">16</tt>  <tt class="py-line"><tt id="link-10" class="py-name" targets="Variable data.INITIAL_BOMB_NUMBER=data-module.html#INITIAL_BOMB_NUMBER"><a title="data.INITIAL_BOMB_NUMBER" class="py-name" href="#" onclick="return doclink('link-10', 'INITIAL_BOMB_NUMBER', 'link-10');">INITIAL_BOMB_NUMBER</a></tt>     <tt class="py-op">=</tt> <tt class="py-op">-</tt><tt class="py-number">1</tt> <tt class="py-comment"># Le nombre de bombe que poss&#232;de un joueur au d&#233;but de la partie</tt> </tt>
+<a name="L17"></a><tt class="py-lineno">17</tt>  <tt class="py-line"><tt id="link-11" class="py-name" targets="Variable data.STUN_TIME=data-module.html#STUN_TIME"><a title="data.STUN_TIME" class="py-name" href="#" onclick="return doclink('link-11', 'STUN_TIME', 'link-11');">STUN_TIME</a></tt>               <tt class="py-op">=</tt> <tt class="py-op">-</tt><tt class="py-number">1</tt> <tt class="py-comment"># Le nombre de server_tickrate o&#249; le joueur ne peut pas boug&#233; apr&#232;s avoir touch&#233; une bombe</tt> </tt>
+<a name="L18"></a><tt class="py-lineno">18</tt>  <tt class="py-line"> </tt>
+<a name="L19"></a><tt class="py-lineno">19</tt>  <tt class="py-line"> </tt>
+<a name="setUpData"></a><div id="setUpData-def"><a name="L20"></a><tt class="py-lineno">20</tt> <a class="py-toggle" href="#" id="setUpData-toggle" onclick="return toggle('setUpData');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="data-module.html#setUpData">setUpData</a><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="setUpData-collapsed" style="display:none;" pad="++" indent="++++"></div><div id="setUpData-expanded"><a name="L21"></a><tt class="py-lineno">21</tt>  <tt class="py-line">    <tt class="py-docstring">"""Met en place toutes la variables constantes du jeu en lisant le fichier des constantes."""</tt> </tt>
+<a name="L22"></a><tt class="py-lineno">22</tt>  <tt class="py-line">    <tt class="py-keyword">global</tt> <tt id="link-12" class="py-name"><a title="data.TURN_IT" class="py-name" href="#" onclick="return doclink('link-12', 'TURN_IT', 'link-0');">TURN_IT</a></tt><tt class="py-op">,</tt> <tt id="link-13" class="py-name"><a title="data.THRUST_IT" class="py-name" href="#" onclick="return doclink('link-13', 'THRUST_IT', 'link-1');">THRUST_IT</a></tt><tt class="py-op">,</tt> <tt id="link-14" class="py-name"><a title="data.SERVER_TICRATE" class="py-name" href="#" onclick="return doclink('link-14', 'SERVER_TICRATE', 'link-2');">SERVER_TICRATE</a></tt><tt class="py-op">,</tt> <tt id="link-15" class="py-name"><a title="data.REFRESH_TICRATE" class="py-name" href="#" onclick="return doclink('link-15', 'REFRESH_TICRATE', 'link-3');">REFRESH_TICRATE</a></tt><tt class="py-op">,</tt> <tt id="link-16" class="py-name"><a title="data.ARENA_H" class="py-name" href="#" onclick="return doclink('link-16', 'ARENA_H', 'link-4');">ARENA_H</a></tt><tt class="py-op">,</tt> <tt id="link-17" class="py-name"><a title="data.ARENA_L" class="py-name" href="#" onclick="return doclink('link-17', 'ARENA_L', 'link-5');">ARENA_L</a></tt><tt class="py-op">,</tt> <tt id="link-18" class="py-name"><a title="data.POD_SIDE" class="py-name" href="#" onclick="return doclink('link-18', 'POD_SIDE', 'link-6');">POD_SIDE</a></tt><tt class="py-op">,</tt> <tt id="link-19" class="py-name"><a title="data.BALL_SIDE" class="py-name" href="#" onclick="return doclink('link-19', 'BALL_SIDE', 'link-7');">BALL_SIDE</a></tt><tt class="py-op">,</tt> <tt id="link-20" class="py-name"><a title="data.ASTEROID_SIDE" class="py-name" href="#" onclick="return doclink('link-20', 'ASTEROID_SIDE', 'link-8');">ASTEROID_SIDE</a></tt><tt class="py-op">,</tt> <tt id="link-21" class="py-name"><a title="data.INITIAL_BOMB_NUMBER" class="py-name" href="#" onclick="return doclink('link-21', 'INITIAL_BOMB_NUMBER', 'link-10');">INITIAL_BOMB_NUMBER</a></tt><tt class="py-op">,</tt> <tt id="link-22" class="py-name"><a title="data.STUN_TIME" class="py-name" href="#" onclick="return doclink('link-22', 'STUN_TIME', 'link-11');">STUN_TIME</a></tt> </tt>
+<a name="L23"></a><tt class="py-lineno">23</tt>  <tt class="py-line">    <tt class="py-keyword">with</tt> <tt class="py-name">open</tt><tt class="py-op">(</tt><tt class="py-string">'../data.json'</tt><tt class="py-op">)</tt> <tt class="py-keyword">as</tt> <tt class="py-name">json_file</tt><tt class="py-op">:</tt>   </tt>
+<a name="L24"></a><tt class="py-lineno">24</tt>  <tt class="py-line">        <tt id="link-23" class="py-name" targets="Module data=data-module.html"><a title="data" class="py-name" href="#" onclick="return doclink('link-23', 'data', 'link-23');">data</a></tt> <tt class="py-op">=</tt> <tt class="py-name">json</tt><tt class="py-op">.</tt><tt class="py-name">load</tt><tt class="py-op">(</tt><tt class="py-name">json_file</tt><tt class="py-op">)</tt> </tt>
+<a name="L25"></a><tt class="py-lineno">25</tt>  <tt class="py-line">        <tt id="link-24" class="py-name"><a title="data.TURN_IT" class="py-name" href="#" onclick="return doclink('link-24', 'TURN_IT', 'link-0');">TURN_IT</a></tt> <tt class="py-op">=</tt> <tt id="link-25" class="py-name"><a title="data" class="py-name" href="#" onclick="return doclink('link-25', 'data', 'link-23');">data</a></tt><tt class="py-op">[</tt><tt class="py-string">"turn_it"</tt><tt class="py-op">]</tt> </tt>
+<a name="L26"></a><tt class="py-lineno">26</tt>  <tt class="py-line">        <tt id="link-26" class="py-name"><a title="data.THRUST_IT" class="py-name" href="#" onclick="return doclink('link-26', 'THRUST_IT', 'link-1');">THRUST_IT</a></tt> <tt class="py-op">=</tt> <tt id="link-27" class="py-name"><a title="data" class="py-name" href="#" onclick="return doclink('link-27', 'data', 'link-23');">data</a></tt><tt class="py-op">[</tt><tt class="py-string">"thrust_it"</tt><tt class="py-op">]</tt> </tt>
+<a name="L27"></a><tt class="py-lineno">27</tt>  <tt class="py-line">        <tt id="link-28" class="py-name"><a title="data.SERVER_TICRATE" class="py-name" href="#" onclick="return doclink('link-28', 'SERVER_TICRATE', 'link-2');">SERVER_TICRATE</a></tt> <tt class="py-op">=</tt> <tt id="link-29" class="py-name"><a title="data" class="py-name" href="#" onclick="return doclink('link-29', 'data', 'link-23');">data</a></tt><tt class="py-op">[</tt><tt class="py-string">"server_tickrate"</tt><tt class="py-op">]</tt> </tt>
+<a name="L28"></a><tt class="py-lineno">28</tt>  <tt class="py-line">        <tt id="link-30" class="py-name"><a title="data.REFRESH_TICRATE" class="py-name" href="#" onclick="return doclink('link-30', 'REFRESH_TICRATE', 'link-3');">REFRESH_TICRATE</a></tt> <tt class="py-op">=</tt> <tt id="link-31" class="py-name"><a title="data" class="py-name" href="#" onclick="return doclink('link-31', 'data', 'link-23');">data</a></tt><tt class="py-op">[</tt><tt class="py-string">"refresh_tickrate"</tt><tt class="py-op">]</tt> </tt>
+<a name="L29"></a><tt class="py-lineno">29</tt>  <tt class="py-line">        <tt id="link-32" class="py-name"><a title="data.ARENA_H" class="py-name" href="#" onclick="return doclink('link-32', 'ARENA_H', 'link-4');">ARENA_H</a></tt> <tt class="py-op">=</tt> <tt id="link-33" class="py-name"><a title="data" class="py-name" href="#" onclick="return doclink('link-33', 'data', 'link-23');">data</a></tt><tt class="py-op">[</tt><tt class="py-string">"arena_h"</tt><tt class="py-op">]</tt> </tt>
+<a name="L30"></a><tt class="py-lineno">30</tt>  <tt class="py-line">        <tt id="link-34" class="py-name"><a title="data.ARENA_L" class="py-name" href="#" onclick="return doclink('link-34', 'ARENA_L', 'link-5');">ARENA_L</a></tt> <tt class="py-op">=</tt> <tt id="link-35" class="py-name"><a title="data" class="py-name" href="#" onclick="return doclink('link-35', 'data', 'link-23');">data</a></tt><tt class="py-op">[</tt><tt class="py-string">"arena_l"</tt><tt class="py-op">]</tt> </tt>
+<a name="L31"></a><tt class="py-lineno">31</tt>  <tt class="py-line">        <tt id="link-36" class="py-name"><a title="data.POD_SIDE" class="py-name" href="#" onclick="return doclink('link-36', 'POD_SIDE', 'link-6');">POD_SIDE</a></tt> <tt class="py-op">=</tt> <tt id="link-37" class="py-name"><a title="data" class="py-name" href="#" onclick="return doclink('link-37', 'data', 'link-23');">data</a></tt><tt class="py-op">[</tt><tt class="py-string">"pod_side"</tt><tt class="py-op">]</tt> </tt>
+<a name="L32"></a><tt class="py-lineno">32</tt>  <tt class="py-line">        <tt id="link-38" class="py-name"><a title="data.BALL_SIDE" class="py-name" href="#" onclick="return doclink('link-38', 'BALL_SIDE', 'link-7');">BALL_SIDE</a></tt> <tt class="py-op">=</tt> <tt id="link-39" class="py-name"><a title="data" class="py-name" href="#" onclick="return doclink('link-39', 'data', 'link-23');">data</a></tt><tt class="py-op">[</tt><tt class="py-string">"ball_side"</tt><tt class="py-op">]</tt> </tt>
+<a name="L33"></a><tt class="py-lineno">33</tt>  <tt class="py-line">        <tt id="link-40" class="py-name"><a title="data.ASTEROID_SIDE" class="py-name" href="#" onclick="return doclink('link-40', 'ASTEROID_SIDE', 'link-8');">ASTEROID_SIDE</a></tt> <tt class="py-op">=</tt> <tt id="link-41" class="py-name"><a title="data" class="py-name" href="#" onclick="return doclink('link-41', 'data', 'link-23');">data</a></tt><tt class="py-op">[</tt><tt class="py-string">"asteroid_side"</tt><tt class="py-op">]</tt> </tt>
+<a name="L34"></a><tt class="py-lineno">34</tt>  <tt class="py-line">        <tt id="link-42" class="py-name"><a title="data.INITIAL_BOMB_NUMBER" class="py-name" href="#" onclick="return doclink('link-42', 'INITIAL_BOMB_NUMBER', 'link-10');">INITIAL_BOMB_NUMBER</a></tt> <tt class="py-op">=</tt> <tt id="link-43" class="py-name"><a title="data" class="py-name" href="#" onclick="return doclink('link-43', 'data', 'link-23');">data</a></tt><tt class="py-op">[</tt><tt class="py-string">"nb_spirit_bombs"</tt><tt class="py-op">]</tt> </tt>
+<a name="L35"></a><tt class="py-lineno">35</tt>  <tt class="py-line">        <tt id="link-44" class="py-name"><a title="data.STUN_TIME" class="py-name" href="#" onclick="return doclink('link-44', 'STUN_TIME', 'link-11');">STUN_TIME</a></tt> <tt class="py-op">=</tt> <tt id="link-45" class="py-name"><a title="data" class="py-name" href="#" onclick="return doclink('link-45', 'data', 'link-23');">data</a></tt><tt class="py-op">[</tt><tt class="py-string">"stun_time"</tt><tt class="py-op">]</tt> </tt>
+</div><a name="L36"></a><tt class="py-lineno">36</tt>  <tt class="py-line"> </tt><script type="text/javascript">
+<!--
+expandto(location.href);
+// -->
+</script>
+</pre>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Thu Mar 28 21:51:29 2019
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

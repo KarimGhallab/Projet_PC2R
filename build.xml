@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="build" name="PC2R_Project">
+    <property environment="env"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="10"/>
+    <property name="source" value="10"/>
+    <path id="PC2R_Project.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="external_jars/json-simple-1.1.jar"/>
+    </path>
+    <path id="run.MainServer.classpath">
+        <path refid="PC2R_Project.classpath"/>
+        <pathelement location="external_jars/json-simple-1.1.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src/server">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src/server"/>
+            <classpath refid="PC2R_Project.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target name="run">
+        <java classname="main.MainServer" failonerror="true" fork="yes">
+            <classpath refid="run.MainServer.classpath"/>
+        </java>
+    </target>
+</project>

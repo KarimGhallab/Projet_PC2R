@@ -1,0 +1,9 @@
+bin/
+.vscode/
+.metadata/
+src/client/__pycache__
+src/client/communication/__pycache__
+src/client/communication/threads/__pycache__
+src/client/dispatcher/__pycache__
+src/client/player/__pycache__
+src/client/GraphicalApp.pyc

@@ -1,0 +1,18 @@
+{
+	"turn_it": 			10,
+	"thrust_it":		5,
+	"win_cap":			3,
+	"nb_spirit_bombs":	3,
+	"nb_obstacle":		3,	
+	"server_tickrate":	30,
+	"refresh_tickrate":	30,
+	"arena_h": 			250,
+	"arena_l": 			400,
+	"pod_side": 		50,
+	"ball_side":		30,
+	"asteroid_side":	55,
+	"spirit_bomb_side":	35,
+	"stun_time":		30,
+	"waiting_time":		500
+}
+
