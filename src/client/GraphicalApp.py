@@ -514,11 +514,12 @@ class GraphicalApp(tk.Frame):
     def reset(self):
         """Remet à zéro l'application graphique."""
         self.resetScores()
-        for(name, chat) in self.chats.items():
-            if name != "Public":
-                self.notebook.forget(chat[0])
+        for(_, chat) in self.chats.items():
+            self.notebook.forget(chat[0])
         
         self.chats = {}
+        # On ajoute de nouveau le chat public
+        self.createChat("Public", enable=True)
         
 
     def resetScores(self):
