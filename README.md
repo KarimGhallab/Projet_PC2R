@@ -27,14 +27,14 @@ L'installation de Tkinter peut se faire avec la commande suivante :
 ```
 
 ### Étape 4 : Pillow
-Pillow (ou Pil) est une bibliothèque qui ajout un support pour manipuler différents types d'images. Vous pouvez installer Pillow en éxécutant la commande suivante :
+Pillow (ou Pil) est une bibliothèque qui ajoute un support pour manipuler différents types d'images. Vous pouvez installer Pillow en éxécutant la commande suivante :
 
 ```shell
     sudo pip3 install Pillow
 ```
 
 ### Étape 5 : ImageTk
-ImageTk est un petit module qui nous permet d'utiliser les fonctionnalité de la librairie Pillow avec le module graphique Tkinter
+ImageTk est un petit module qui nous permet d'utiliser les fonctionnalités de la librairie Pillow avec le module graphique Tkinter.
 L'installation de ImageTk peut se faire avec la commande suivante :
 
 ```shell
